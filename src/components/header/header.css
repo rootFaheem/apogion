@@ -1,0 +1,89 @@
+.apogian_parent {
+    width: 100%;
+}
+
+.header_parent {
+    background: black;
+    height: 50px;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header_child {
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.navList ul {
+    list-style: none;
+    margin-top: 11px;
+}
+
+.navList ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.my_link {
+    color: white;
+}
+
+.my_link:hover {
+    color: #fef851;
+    text-decoration: none;
+}
+
+.social_icons {
+    height: 50px;
+}
+
+.social_icons ul {
+    list-style: none;
+    margin-top: 11px;
+}
+
+.social_icons ul li {
+    height: 30px;
+    width: 30px;
+    background: #fef851;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social_icons li:nth-child(1) {
+    padding: 3px 2px 0px 0px;
+}
+
+.social_icons li:nth-child(2) {
+    padding: 3px 0px 0px 0px;
+}
+
+.social_icons li:nth-child(3) {
+    padding: 3px 2px 0px 0px;
+}
+
+.social_icons li:nth-child(4) {
+    padding: 2px 0px 0px 1px;
+}
+
+.activeLink {
+    text-decoration: none;
+    color: #fef851;
+}
+
+/*# sourceMappingURL=header.css.map */
