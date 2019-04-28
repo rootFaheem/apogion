@@ -1,0 +1,17 @@
+.background {
+    background: url(../../../assetsts/images/serviceDetail/Landing.jpg);
+    position: relative;
+    /* top: -50px; */
+
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#BrandHeader {
+    padding-top: "10px";
+}

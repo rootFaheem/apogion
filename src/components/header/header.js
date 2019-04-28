@@ -7,13 +7,13 @@ const header = () => {
     return (
         <div>
             <div className="apogian_parent">
-                <div class="container-fluid">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="header_parent">
                             <header>
                                 <div className="header">
                                     <div className="header_child col-md-10">
-                                        <div class="row">
+                                        <div className="row">
                                             <div className="logo col-md-5">
                                                 <div className="row">
                                                     <img

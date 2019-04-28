@@ -5,16 +5,16 @@ import IndexRoute from "../routes/index.routes";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  return (
-    <React.Fragment>
-      <BrowserRouter>
-        <div className="App">
-          <Header />
-          <IndexRoute />
-        </div>
-      </BrowserRouter>
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <BrowserRouter>
+                <div className="App">
+                    <Header />
+                    <IndexRoute />
+                </div>
+            </BrowserRouter>
+        </React.Fragment>
+    );
 }
 
 export default App;
