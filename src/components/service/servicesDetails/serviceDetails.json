@@ -1,29 +1,78 @@
-{
-    "id": 1,
-    "header": "Brand Identity Design",
-    "body": "Every brand has a unique story and we at apogion design according to your brand`s culture and position in the market. We execute the designs by creating a cohesive message that ties together company values to your ideal consumer. We make sure that the brand identity we create resonate with your target audience and differentiate you from your competitors.",
-    "subPara": "COMPONENTS THAT APOGION TARGETS",
-    "subParaBody": [
-        "Brand culture and values.",
-        "Position in the market.",
-        "Visual brand components."
-    ],
-    "subHeader1": "LOGO DESIGN",
-    "subHeader1Body": [
-        "Brand Name Generate",
-        "Tagline development",
-        "Brand Logo Design",
-        "Brand Style Guidelines",
-        "Tone of Voice",
-        "Brand Logo Trademarks registration"
-    ],
-    "subHeader2": "BRAND KITS",
-    "subHeader2Body": [
-        "Business cards ",
-        "Letterhead",
-        "Envelope",
-        "Folders",
-        "Business Form templates",
-        "Corporate Uniform"
-    ]
-}
+[
+    {
+        "id": 1,
+        "header": "Brand Identity Design",
+        "body": "Every brand has a unique story and we at apogion design according to your brand`s culture and position in the market. We execute the designs by creating a cohesive message that ties together company values to your ideal consumer. We make sure that the brand identity we create resonate with your target audience and differentiate you from your competitors.",
+        "subPara": "COMPONENTS THAT APOGION TARGETS",
+        "subParaBody": [
+            "Brand culture and values.",
+            "Position in the market.",
+            "Visual brand components."
+        ],
+        "subHeader1": "LOGO DESIGN",
+        "subHeader1Body": [
+            "Brand Name Generate",
+            "Tagline development",
+            "Brand Logo Design",
+            "Brand Style Guidelines",
+            "Tone of Voice",
+            "Brand Logo Trademarks registration"
+        ],
+        "subHeader2": "BRAND KITS",
+        "subHeader2Body": [
+            "Business cards ",
+            "Letterhead",
+            "Envelope",
+            "Folders",
+            "Business Form templates",
+            "Corporate Uniform"
+        ]
+    },
+    {
+        "id": 2,
+        "header": "Marketing & Promotional Branding",
+        "body": "A brand is an idea. Hence, apogion stands for a personality behind the company. We work on a unique way of using the informative ideas supporting your company which makes your branding stick. We take time to learn your company and the best way to showcase it which results in lasting value to you.",
+        "subHeader1": "Marketing Kit Designing",
+        "subHeader1Body": [
+            "Corporate Brochures",
+            "Look books",
+            "Product Catalogues",
+            "Flyers",
+            "leaflet",
+            "Poster",
+            "Standee Design",
+            "Trade Show Kit",
+            "Brand Calendars"
+        ],
+        "subHeader2": "Promotion Designing",
+        "subHeader2Body": [
+            "Billboards",
+            "Print Advertising Design",
+            "Mobile Van Advertising",
+            "Vehicle Wraps Advertising",
+            "Tradeshow booth",
+            "Exhibition Interactive design"
+        ]
+    },
+    {
+        "id": 3,
+        "header": "Retail Store Branding",
+        "body": "Every brand has a unique story and we at apogion design according to your brand`s culture and pIn the highly competitive arena, apogion makes sure that the retail space you offer brings an opportunity to stand out from the clutter. We work in all way that to differentiate your company from a fairly saturated and competitive market. We make content that usually comprised of rich write-ups which helps you to connect with and relate to your target audience",
+        "subHeader1": "Store Branding",
+        "subHeader1Body": [
+            "Window Display",
+            "Sale Arches",
+            "Signage design",
+            "Directional Signage"
+        ],
+        "subHeader2": "In-Store Communication",
+        "subHeader2Body": [
+            "Shelf-talkers",
+            "Shelf stoppers",
+            "Wobblers",
+            "Danglers",
+            "Display Cubes",
+            "Table Card"
+        ]
+    }
+]

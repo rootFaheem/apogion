@@ -7,9 +7,13 @@ import Smiley from "../../../../assetsts/images/serviceDetail/ServiceDetail/smil
 import "./ServiceDetail.css";
 
 const serviceDetail = props => {
-    let list1 = props.data.subParaBody.map(item => {
-        return <li className="text-left">{item}</li>;
-    });
+    let list1 = null;
+    if (props.data.subParaBody) {
+        list1 = props.data.subParaBody.map(item => {
+            return <li className="text-left">{item}</li>;
+        });
+    }
+
     let list2 = props.data.subHeader1Body.map(item => {
         return <li className="list-inline-item">&bull; {item}</li>;
     });
@@ -19,7 +23,7 @@ const serviceDetail = props => {
 
     return (
         <div>
-            <div className="row w-100 pt-5" style={{ marginBottom: "100vh" }}>
+            <div className="row w-100 pt-5">
                 <div className="col-5 pl-5">
                     <div
                         id="carouselExampleIndicators"

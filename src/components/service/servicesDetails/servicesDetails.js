@@ -6,20 +6,23 @@ import JsonData from "./serviceDetails.json";
 import "./servicesDetails.css";
 
 export default function servicesDetail() {
-    console.log(JsonData);
     return (
         <div style={{ overflow: "scroll", maxWidth: "100%" }}>
             <div>
                 <div className="background" />
-                <div className="text-center h3 mt-3" id="BrandHeader">
+                <div
+                    className="text-center h3 mt-3 font-weight-bold"
+                    id="BrandHeader"
+                >
                     BRAND CREATION
                 </div>
                 <div className="text-left font-weight-light" id="BrandHeader">
-                    <p className="mt-4 mr-5 ml-5 ">
+                    <p className="mt-4 mr-5 ml-5">
                         Wow! Congrats if you are reading this. That means you
                         have taken the plunge and are ready to start and grow
-                        your own business. It can be daunting when it comes to
-                        starting or developing your business model and brand.
+                        your own business.
+                        <br /> It can be daunting when it comes to starting or
+                        developing your business model and brand.
                         <br /> We help you create your brand with trust, while
                         also entertaining and educating your consumers about
                         what you do and why you do it. Define your audience,
@@ -49,8 +52,10 @@ export default function servicesDetail() {
                     </div>
                 </div>
             </div>
-            <div>
-                <ServiceDetail data={JsonData} />
+            <div className="mb-5">
+                <ServiceDetail data={JsonData[0]} />
+                <ServiceDetail data={JsonData[1]} />
+                <ServiceDetail data={JsonData[2]} />
             </div>
         </div>
     );
