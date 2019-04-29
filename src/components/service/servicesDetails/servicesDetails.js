@@ -7,7 +7,7 @@ import "./servicesDetails.css";
 
 export default function servicesDetail() {
     return (
-        <div style={{ overflow: "scroll", maxWidth: "100%" }}>
+        <div style={{ overflow: "scroll", maxWidth: "100%" }} id="Brand">
             <div>
                 <div className="background" />
                 <div
@@ -52,7 +52,7 @@ export default function servicesDetail() {
                     </div>
                 </div>
             </div>
-            <div className="mb-5">
+            <div style={{ marginBottom: "20vh" }}>
                 <ServiceDetail data={JsonData[0]} />
                 <ServiceDetail data={JsonData[1]} />
                 <ServiceDetail data={JsonData[2]} />

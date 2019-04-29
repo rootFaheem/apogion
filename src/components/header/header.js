@@ -2,18 +2,18 @@ import React from "react";
 import "./header.css";
 import NavLink from "react-router-dom/NavLink";
 import logo from "../../../src/assetsts/images/download.jpeg";
-
+import About from "../about/about";
 const header = () => {
     return (
         <div>
             <div className="apogian_parent">
-                <div className="container-fluid">
+                <div class="container-fluid">
                     <div className="row">
                         <div className="header_parent">
                             <header>
                                 <div className="header">
                                     <div className="header_child col-md-10">
-                                        <div className="row">
+                                        <div class="row">
                                             <div className="logo col-md-5">
                                                 <div className="row">
                                                     <img
@@ -48,7 +48,7 @@ const header = () => {
                                                                 <NavLink
                                                                     activeClassName="activeLink"
                                                                     className="my_link"
-                                                                    to="/service"
+                                                                    to="/services"
                                                                 >
                                                                     Services
                                                                 </NavLink>

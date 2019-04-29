@@ -10,15 +10,15 @@ import Portfolio from "../components/portfolio/portfolio";
 import Contact from "../components/contact/contact";
 
 const IndexRoute = () => {
-  return (
-    <Switch>
-      <Route exact path="/home" component={Home} />
-      <Route exact path="/about" component={About} /> service
-      <Route exact path="/service" component={Service} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route exact path="/contact" component={Contact} />
-      <Redirect to="/home" />
-    </Switch>
-  );
+    return (
+        <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/about" component={About} /> service
+            <Route exact path="/services" component={Service} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+            <Redirect to="/home" />
+        </Switch>
+    );
 };
 export default IndexRoute;

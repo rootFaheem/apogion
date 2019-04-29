@@ -23,7 +23,7 @@ const serviceDetail = props => {
 
     return (
         <div>
-            <div className="row w-100 pt-5">
+            <div className="row mt-5">
                 <div className="col-5 pl-5">
                     <div
                         id="carouselExampleIndicators"
